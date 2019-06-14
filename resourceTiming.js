@@ -34,3 +34,6 @@ var initiator_type = ["xmlhttprequest", "script", "img"]
 
 // specific url you want to capture from your network request pool
 var url_filter = "https://www.google-analytics.com/collect";
+
+// Calling the function
+var network_request_logs = captureRequestsWithUrlFilter(initiator_type, url_filter);
